@@ -118,11 +118,24 @@
         "action": "revision_requested"
       },
       "content": null
+    },
+    {
+      "timestamp": "2026-03-20T22:03:25.547Z",
+      "step": "1_revision_in_review",
+      "step_before": "1_revision",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "submitted_for_review"
+      },
+      "content": "# You can edit this draft. When ready, submit it to the editorial team v1\n\nYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team\n\nYou can edit this draft. When ready, submit it to the editorial teamvYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team"
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "Idea_1_modified_in_review",
-    "to": "1_revision"
+    "from": "1_revision",
+    "to": "1_revision_in_review"
   }
 }
