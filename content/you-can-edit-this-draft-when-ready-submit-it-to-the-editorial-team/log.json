@@ -105,11 +105,24 @@
       },
       "content": null,
       "comment": "Can you make the modifications"
+    },
+    {
+      "timestamp": "2026-03-20T21:57:40.455Z",
+      "step": "1_revision",
+      "step_before": "Idea_1_modified_in_review",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "revision_requested"
+      },
+      "content": null
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "Idea_1_modified",
-    "to": "Idea_1_modified_in_review"
+    "from": "Idea_1_modified_in_review",
+    "to": "1_revision"
   }
 }
