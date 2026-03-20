@@ -197,11 +197,24 @@
         "action": "approved"
       },
       "content": null
+    },
+    {
+      "timestamp": "2026-03-20T22:09:11.961Z",
+      "step": "2_revision_in_review",
+      "step_before": "2_revision_approved",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "returned_to_review"
+      },
+      "content": null
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "2_revision_in_review",
-    "to": "2_revision_approved"
+    "from": "2_revision_approved",
+    "to": "2_revision_in_review"
   }
 }
