@@ -158,11 +158,24 @@
         "action": "submitted_for_review"
       },
       "content": "# You can edit this draft. When ready, submit it to the editorial team v1\n\nYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team\n\nYou can edit this draft. When ready, submit it to the editorial teamvYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team"
+    },
+    {
+      "timestamp": "2026-03-20T22:05:16.057Z",
+      "step": "2_revision_approved",
+      "step_before": "2_revision_in_review",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "approved"
+      },
+      "content": null
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "2_revision",
-    "to": "2_revision_in_review"
+    "from": "2_revision_in_review",
+    "to": "2_revision_approved"
   }
 }
