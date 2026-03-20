@@ -23,7 +23,24 @@
         "action": "created_with_content"
       },
       "content": "# You can edit this draft. When ready, submit it to the editorial team\n\nYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team\n\nYou can edit this draft. When ready, submit it to the editorial teamvYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team"
+    },
+    {
+      "timestamp": "2026-03-20T21:37:54.049Z",
+      "step": "Idea_1_modified",
+      "step_before": "Idea",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "author"
+      },
+      "event": {
+        "action": "saved_draft"
+      },
+      "content": "# You can edit this draft. When ready, submit it to the editorial team v1\n\nYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team\n\nYou can edit this draft. When ready, submit it to the editorial teamvYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial teamYou can edit this draft. When ready, submit it to the editorial team"
     }
   ],
-  "last_event": null
+  "last_event": {
+    "type": "status_change",
+    "from": "Idea",
+    "to": "Idea_1_modified"
+  }
 }
