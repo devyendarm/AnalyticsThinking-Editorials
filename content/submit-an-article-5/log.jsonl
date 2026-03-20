@@ -1,1 +1,29 @@
 {"ts":"2026-03-17T08:19:51.839Z","article_id":"6b058fd9-d92f-4e97-92fd-5e79b7395416","article_slug":"submit-an-article-5","article_title":"Submit an Article 5","user_id":"b516951e-cb16-4324-a5b8-6550167f4398","user_name":"Devyendar M | github: devyendarm | devyendarm@gmail.com","user_email":"devyendarm@gmail.com","user_role":"Chief Editor","workflow_step":"submitted_for_review","status_before":"idea","status_after":"in_review","event_type":"status_change","event":"status_change","from":"idea","to":"in_review"}
+
+---
+
+{
+  "timestamp": "2026-03-20T18:56:27.809Z",
+  "article": {
+    "id": "6b058fd9-d92f-4e97-92fd-5e79b7395416",
+    "slug": "submit-an-article-5",
+    "title": "Submit an Article 5"
+  },
+  "actor": {
+    "id": "b516951e-cb16-4324-a5b8-6550167f4398",
+    "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+    "email": "devyendarm@gmail.com",
+    "role": "author"
+  },
+  "workflow": {
+    "step": "review_commented",
+    "status_before": null,
+    "status_after": null
+  },
+  "event": {
+    "type": "comment_added",
+    "comment_id": "9be9c65e-d71e-4d8d-9778-b7e2559a063b",
+    "comment_type": "Revision Required",
+    "text": "not good"
+  }
+}
