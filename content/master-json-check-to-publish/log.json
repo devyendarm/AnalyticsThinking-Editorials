@@ -36,11 +36,24 @@
         "action": "submitted_for_review"
       },
       "content": "This is a test content for the E2E publishing lifecycle. It should verify that the Master JSON log is correctly updated across all states, including final publishing."
+    },
+    {
+      "timestamp": "2026-03-20T20:40:00.309Z",
+      "step": "Approved",
+      "step_before": "Idea_in_review",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "approved"
+      },
+      "content": null
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "Idea",
-    "to": "Idea_in_review"
+    "from": "Idea_in_review",
+    "to": "Approved"
   }
 }
