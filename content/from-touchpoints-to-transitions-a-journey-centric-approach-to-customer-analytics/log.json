@@ -307,11 +307,25 @@
         "action": "returned_to_review"
       },
       "content": null
+    },
+    {
+      "timestamp": "2026-03-21T05:00:40.801Z",
+      "step": "4_revision",
+      "step_before": "3_revision_in_review",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "revision_requested"
+      },
+      "content": null,
+      "comment": "Making further changes and adding the link to the D3J visualization on Journey explorer"
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "3_revision_approved",
-    "to": "3_revision_in_review"
+    "from": "3_revision_in_review",
+    "to": "4_revision"
   }
 }
