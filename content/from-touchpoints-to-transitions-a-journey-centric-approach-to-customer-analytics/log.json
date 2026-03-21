@@ -185,11 +185,25 @@
         "action": "returned_to_review"
       },
       "content": null
+    },
+    {
+      "timestamp": "2026-03-21T03:47:15.815Z",
+      "step": "2_revision",
+      "step_before": "1_revision_in_review",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "revision_requested"
+      },
+      "content": null,
+      "comment": "Sent back to Revision to make the critical fixes suggested by Claudia, AI Editor"
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "1_revision_approved",
-    "to": "1_revision_in_review"
+    "from": "1_revision_in_review",
+    "to": "2_revision"
   }
 }
