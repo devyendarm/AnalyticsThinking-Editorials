@@ -1,4 +1,4 @@
-*Imagine you have to meet your CMO in next half-an hour and you know that you have to give a compelling reason and strategy to correct the 18% week over week drop in conversions. As a quick go to tool, you opened the performance dashboard and vigorously tried to slice KPIs by device, channels, geography but you were still unable to find any compelling reason for 'why conversions declined'?*
+*Imagine you have to meet your CMO in the next half an hour and you know that you have to give a compelling reason and strategy to correct the 18% week over week drop in conversions. As a quick go to tool, you opened the performance dashboard and vigorously tried to slice KPIs by device, channels, geography but you were still unable to find any compelling reason for 'why conversions declined'?*
 
 KPIs such as bounce rates, sessions, pageviews were the foundation of a digital dashboard for nearly two decades. In general, KPIs are used according to the context of the analysis to measure and report performance. However, they only help us understand ‘what happened’ and not so much to understand ‘why users behave in certain ways or how business outcomes can be achieved.’ As customer journeys have become increasingly complex and businesses are expected to deliver consistent performance improvements every passing quarter or year, the insights expected from data have increased in both volume and complexity. Analysts are expected to answer questions such as,
 
@@ -32,7 +32,7 @@ As we saw in our Journey Explorer analysis, friction exists at ‘View Item’ s
 
 Image 3: <https://drive.google.com/file/d/1GQLBYUjfqxEf-G_ma0Y30FfI6SUJcwBN/view?usp=drive_link>
 
-In our analysis the friction was contributed by the errors and time taken by users to complete the action, which can be seen in the Time distribution chart. The reason for longer time to action can be analyzed with Channel, Page, and Micro-Events performed at this particular stage. On further analysis, Micro-events diagnosis helps us understand that most users chose ‘Add items to Wishlist’ rather than ‘Add to Cart’, although this is a favorable action, it is not aligned to direct desired Journey Progression.
+In our analysis the friction was contributed by the errors and time taken by users to complete the action, which can be seen in the Time distribution chart. The reason for longer time to action can be analyzed with Channel, Page, and Micro-events performed at this particular stage. On further analysis, Micro-events diagnosis helps us understand that most users chose ‘Add items to Wishlist’ rather than ‘Add to Cart’, although this is a favorable action, it is not aligned to direct desired Journey Progression.
 
 These are the actionable challenges that need to be resolved to remove friction in the user’s journey.
 
@@ -77,6 +77,7 @@ Image 7: <https://drive.google.com/file/d/1x4rQ2eJj3Uzq3XabePaitOcUsHCfYdHf/view
 ### Conclusion
 
 Journey Explorer can represent a meaningful approach for analysts to conduct customer journey analysis. By shifting the unit of analysis from just pages to transitions in the journey, it brings into focus what aggregate metrics have obscured, the actual experience of the users moving through the journey, making decisions, hitting walls, taking detours, and sometimes recovering to find their way back.\
+\
 No single lens makes the Journey Explorer powerful. It is the combination of lenses along with their contributing factors. Progression establishes the baseline. Friction pinpoints where intervention is needed. Detour reveals the path users take when the designed journey fails them. Recovery measures how well the experience holds under real-world conditions. Segment filtering ensures these insights are specific rather than averaged across all users, because behavior that looks uniform at aggregate data level is rarely uniform in practice.
 
-For analysts, Journey Explorer is an additional layer and not a replacement for dashboards, it answers the questions dashboards surface most of the time, but cannot resolve them independently. When a KPI drops, Journey Explorer tells us where the drop originated from in the journey, what did the users do instead, and whether the experience recovered. That is the difference between monitoring performance and understanding the journey.
+For analysts, Journey Explorer is an additional layer and not a replacement for dashboards. It answers the questions dashboards surface most of the time, but cannot resolve them independently. When a KPI drops, Journey Explorer tells us where the drop originated from in the journey, what did the users do instead, and whether the experience recovered. That is the difference between monitoring performance and understanding the journey.
