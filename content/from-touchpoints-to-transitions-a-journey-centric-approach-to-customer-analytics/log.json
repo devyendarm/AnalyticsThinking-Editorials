@@ -453,11 +453,25 @@
         "action": "returned_to_review"
       },
       "content": null
+    },
+    {
+      "timestamp": "2026-03-21T06:48:59.377Z",
+      "step": "5_revision",
+      "step_before": "4_revision_in_review",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "revision_requested"
+      },
+      "content": null,
+      "comment": "Make the changes on the grammar as suggested\nGrammar: 7/10\nThe article is largely grammatically clean, but several issues recur. Comma splices appear in compound sentences (e.g., \"The questions business stakeholders ask have simply evolved beyond what dashboards can answer\" follows well, but earlier constructions do not). The phrase \"next half-an-hour\" in the hook should read \"the next half hour.\" There are minor inconsistencies in hyphenation and capitalization of framework terms (e.g., \"Micro-events\" vs. \"Micro-Events\"). A focused copy-edit pass is warranted before publication."
     }
   ],
   "last_event": {
     "type": "status_change",
-    "from": "4_revision_approved",
-    "to": "4_revision_in_review"
+    "from": "4_revision_in_review",
+    "to": "5_revision"
   }
 }
