@@ -19,6 +19,7 @@ Image 1: [https://drive.google.com/file/d/17wvnnJux1ZXbe-dC_WdOanmgwy7NrXFQ](htt
 It tells us whether users are moving forward in the journey as designed or there are stages where users fall the most, signaling Friction at that journey stage, hampering users to move forward in the expected journey flow.
 
 In the Ecommerce site analysis, this was at ‘View Item’ stage, the progression is only 66% and dropping over 30% of users in the journey, clearly there is a Friction at this stage which is affecting the user’s progression. At the same time ‘Add Shipping’ stage has the lowest Friction with only 10% of users who added their shipping information ended up not Purchasing, demonstrating high Progression rate, clear indication that designed\
+\
 experience is aligned with the user intent.
 
 ### 2. **Friction:&#x20;**&#x49;t focuses on “Where do Users stall?”.
@@ -70,3 +71,11 @@ Image 6: <https://drive.google.com/file/d/1JZzUCXxIelFJHiy1NmYuaWSLV6n-YJ42/view
 Image 7: <https://drive.google.com/file/d/1x4rQ2eJj3Uzq3XabePaitOcUsHCfYdHf/view?usp=drive_link>
 
 * **Micro-events:** As we already saw at ‘View Item’ stage while understanding Friction, Micro-events are greatly helpful in understanding if the actions performed by the users are aligned directly to the Journey progression or contributing to Friction although still favorable, for instance the ‘Add to Wishlist’ action instead of ‘Add to Cart’ action which drives the real business goal.
+
+### Conclusion
+
+Journey Explorer can represent a meaningful approach for analysts to conduct customer journey analysis. By shifting the unit of analysis from just pages to transitions in the journey, it brings into focus what aggregate metrics have obscured, the actual experience of the users moving through the journey, making decisions, hitting walls, taking detours, and sometimes recovering to find their way back.
+
+No single lens makes the Journey Explorer powerful. It is the combination of lenses along with cohorts and their contributing factors. Progression establishes the baseline. Friction pinpoints where intervention is needed. Detour reveals the path users take when the designed journey fails them. Recovery measures how well the experience holds under real-world conditions. Cohort filtering ensures these insights are specific rather than averaged across all users, because behavior that looks uniform at aggregate data level is rarely uniform in practice.
+
+For analysts, Journey Explorer is not a replacement for dashboards, it is an additional layer that answers the questions dashboards sometimes surface but cannot resolve independently. When a KPI drops, Journey Explorer tells you where in the journey that drop originated, what did users do instead, and whether the experience recovered. That is the difference between monitoring performance and understanding the journey.
