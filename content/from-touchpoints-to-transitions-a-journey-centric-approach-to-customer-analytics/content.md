@@ -42,7 +42,7 @@ These are the actionable challenges that need to be resolved to remove friction 
 
 Image 4: <https://drive.google.com/file/d/1GF04Q_bKkezTBLPtYRLxtqP68wLWp28Y/view?usp=drive_link>
 
-It is perhaps one of the most underutilized insights in traditional analytics. When users are not proceeding forward in journey, they either exit the site or take a detour to some other page which is not aligned with the designed journey. Detour analysis helps in mapping those alternate paths, revealing whether the users are seeking help, second-guessing their intent, or working around a broken experience. The detour paths often expose UX gaps that surveys or heatmaps rarely surface.
+It is perhaps one of the most underutilized insights in traditional analytics. When users are not proceeding forward in the journey, they either exit the site or take a detour to some other pages which are not aligned with the desired journey. Detour analysis helps in mapping those alternate paths, revealing whether the users are seeking help, second-guessing their intent, or working around a broken experience. The detour paths often expose UX gaps that surveys or heatmaps rarely surface.
 
 In our analysis, we see users browsing FAQ and Shipping Policy pages at the critical Checkout process, although volume is low, these detours could lead to Abandoned Cart journeys.
 
@@ -50,36 +50,35 @@ In our analysis, we see users browsing FAQ and Shipping Policy pages at the crit
 
 Image 5: <https://drive.google.com/file/d/1z3oXuAg9eqcA4-kjR3Qfgk-hKQ1BOPY4/view?usp=drive_link>
 
-It helps in understanding if the users who detoured were a temporary distraction or break in the journey. Behavior of users who detoured and returned is distinctly different from the one who never left, as they demonstrated intent but got distracted. Recovery rates, analyzed alongside the detour paths give analysts a direct measure of experience resilience, how forgiving is the journey when something goes wrong?
+It helps in understanding if the users who detoured were due to a temporary distraction or break in the journey. Behavior of users who detoured and returned is distinctly different from the one who never left, as they demonstrated intent but got distracted. Recovery rates, analyzed alongside the detour paths, give analysts a direct measure of experience resilience and how forgiving is the journey when something goes wrong.
 
 In our analysis, only 38% of the users who detoured recovered back in the journey suggesting a need to enhance the journey experience to improve their resilience.
 
-Along with the 4 lenses, these additional contributors help better understand the customer journey.
+### **Additional Contributors for Diagnosis:**
 
-### **Cohorts:**
+Along with the 4 lenses, there can be many contributors that help slice lenses of the customer journey.
 
-All users do not follow the same path or journey. There are inherent differences between user journeys, it could be caused due to the device they are using, region, gender etc. These differences can be defined as cohorts of the users. Applying these cohorts to slice the aggregate journey at an individual cohort level to identify cohort level 'Progression,' 'Friction,' 'Detour' and 'Recovery'. These lenses give a better understanding of cohort or segment level performance.
+These can be:
 
-### Stage-Level Contributors:
+* **Segments:&#x20;**&#x41;ll users do not follow the same path or journey. There are inherent differences between users, it could be the device they use, their region or gender etc. These differences can be defined as segments of users. Applying these segments to slice the aggregate journey at a specific user group level helps in isolating the noise and distribution buried under averaged or aggregated view. The specific segment level customer journey provides better understanding of the journey performance when analyzed with the lenses of 'Progression,' 'Friction,' 'Detour' and 'Recovery'.
 
-To get additional perspective and insights on each of the lenses at an individual stage, we can identify diagnostic contributors to further analyze the behavior, in my analysis for Ecommerce the following contributors were applied,
+* **Specific Stage-Level:** These are stage-specific diagnostic contributors, in my analysis for Ecommerce the following contributors were applied,
 
-* **Pages or Top paths:** It helps in understanding what are the top contributing pages at the stage, these pages play critical influencing role on user’s action, any page which is expected and not present in the list should be analyzed and optimized to improve the performance.
+  * **Pages or Top paths:** It helped in understanding what are the top contributing pages at the given stage, these pages played a critical influencing role on user’s action, any page which was expected and not present in the list should be analyzed and optimized to improve the performance.
 
 Image 6: <https://drive.google.com/file/d/1JZzUCXxIelFJHiy1NmYuaWSLV6n-YJ42/view?usp=drive_link>
 
-* **Channels:** The top traffic source view at the journey stage helps in understanding if the volumes at a particular journey stage is greatly influenced by internal site navigation and finding methods or driven by the marketing campaigns
+* **Channels:** The top traffic source view at the journey stage helped in understanding if the volumes at a particular journey stage are greatly influenced by internal site navigation and finding methods or driven by the marketing campaigns.
 
 Image 7: <https://drive.google.com/file/d/1x4rQ2eJj3Uzq3XabePaitOcUsHCfYdHf/view?usp=drive_link>
 
-* **Micro-events:** As we already saw at ‘View Item’ stage while understanding Friction, Micro-events are greatly helpful in understanding if the actions performed by the users are aligned directly to the Journey progression or contributing to Friction although still favorable, for instance the ‘Add to Wishlist’ action instead of ‘Add to Cart’ action which drives the real business goal.
+* **Micro-events:** As we already saw at ‘View Item’ stage while understanding Friction, Micro-events were greatly helpful in understanding if the actions performed by the users are aligned directly to the Journey progression or contributing to Friction, for instance the ‘Add to Wishlist’ action although favorable did not directly influence the journey progression similar to ‘Add to Cart’ action which drives the real business goal.
+
+###
 
 ### Conclusion
 
 Journey Explorer can represent a meaningful approach for analysts to conduct customer journey analysis. By shifting the unit of analysis from just pages to transitions in the journey, it brings into focus what aggregate metrics have obscured, the actual experience of the users moving through the journey, making decisions, hitting walls, taking detours, and sometimes recovering to find their way back.\
-\
-\
-\
-No single lens makes the Journey Explorer powerful. It is the combination of lenses along with cohorts and their contributing factors. Progression establishes the baseline. Friction pinpoints where intervention is needed. Detour reveals the path users take when the designed journey fails them. Recovery measures how well the experience holds under real-world conditions. Cohort filtering ensures these insights are specific rather than averaged across all users, because behavior that looks uniform at aggregate data level is rarely uniform in practice.
+No single lens makes the Journey Explorer powerful. It is the combination of lenses along with their contributing factors. Progression establishes the baseline. Friction pinpoints where intervention is needed. Detour reveals the path users take when the designed journey fails them. Recovery measures how well the experience holds under real-world conditions. Segment filtering ensures these insights are specific rather than averaged across all users, because behavior that looks uniform at aggregate data level is rarely uniform in practice.
 
 For analysts, Journey Explorer is an additional layer and not a replacement for dashboards, it answers the questions dashboards surface most of the time, but cannot resolve them independently. When a KPI drops, Journey Explorer tells us where the drop originated from in the journey, what did the users do instead, and whether the experience recovered. That is the difference between monitoring performance and understanding the journey.
