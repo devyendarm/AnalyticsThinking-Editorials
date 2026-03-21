@@ -144,6 +144,20 @@
         "assigned_to": "Devyendar M"
       },
       "content": null
+    },
+    {
+      "timestamp": "2026-03-21T02:56:49.976Z",
+      "step": "1_revision_in_review",
+      "step_before": "1_revision_in_review",
+      "actor": {
+        "name": "Devyendar M | github: devyendarm | devyendarm@gmail.com",
+        "role": "Chief Editor"
+      },
+      "event": {
+        "action": "editor_assigned",
+        "assigned_to": "Claudia - AI Editor"
+      },
+      "content": null
     }
   ],
   "last_event": {
