@@ -8,31 +8,31 @@ KPIs such as bounce rates, sessions, pageviews were the foundation of a digital 
 
 * Why do our most loyal customers suddenly churn?
 
-The question ‘why’ is deceptively simple and greatly influences the business and marketing strategy, but deriving meaningful insights is difficult. The aggregated metrics, KPIs, and dimension combinations that signal health often hide important behavioral nuances needed to understand and interpret the ‘why.’ The problem is not with the dashboarding platforms or the concept of KPIs. The questions business stakeholders ask have simply evolved beyond what dashboards can answer.
+The question ‘why’ is deceptively simple and greatly influences the business and marketing strategy, but deriving meaningful insights is difficult. The aggregated metrics, KPIs, and dimension combinations that signal health, often hide important behavioral nuances needed to understand and interpret the ‘why.’ The problem is not with the dashboarding platforms or the concept of KPIs. The questions business stakeholders ask have simply evolved beyond what dashboards can answer.
 
-To effectively address business concerns and keep pace with evolving customer expectation, especially when Customer Experience (CX) has become far more fragmented across diverse channels, devices, and asynchronous interactions, the Analytics practice should evolve to look beyond traditional KPIs and structured dashboards toward a journey-centric analysis approach, I call it the Journey Explorer. Here is a working reference Journey Explorer implementation for an Ecommerce site, it can be explored at <https://devyendarm.github.io/JourneyExplorer>.
+To effectively address business concerns and keep pace with evolving customer expectations, especially when Customer Experience (CX) has become far more fragmented across diverse channels, devices, and asynchronous interactions, the Analytics practice should evolve to look beyond traditional KPIs and structured dashboards toward a journey-centric analysis approach, I call this approach the Journey Explorer. Here is a working reference of Journey Explorer implemented for an Ecommerce site, it can be explored at <https://devyendarm.github.io/JourneyExplorer>.
 
-Journey Analysis as a concept is not new. Traditional analysis was focused only on ‘Progression’ with Funnel and Flow visualization, ignoring the critical causal factors of the journey, such as 'Friction,' 'Detour,' and 'Recovery'. Let’s look at how applying these lenses on a simple Customer Journey on an Ecommerce site helps in getting better insights,
+Journey Analysis as a concept is not new. Traditional analysis was focused only on ‘Progression’ with Funnel and Flow visualization, ignoring the critical causal factors of the journey, such as 'Friction,' 'Detour,' and 'Recovery'. Let’s look at how applying these lenses on a simple Customer Journey for an Ecommerce site helps in getting better insights.
 
 ### **1. Progression:&#x20;**&#x49;t focuses on **“**&#x44;&#x6F;**&#x20;**&#x75;sers move forward”.
 
 Image 1: [https://drive.google.com/file/d/17wvnnJux1ZXbe-dC_WdOanmgwy7NrXFQ](https://drive.google.com/file/d/17wvnnJux1ZXbe-dC_WdOanmgwy7NrXFQ/edit)
 
-It tells us whether users are moving forward in the journey as designed or there are stages where users fall the most, signaling friction at that journey stage, hampering users to move forward in the expected journey flow.
+It tells us whether users are moving forward in the journey as designed or there are stages where users fall off the journey the most, signaling friction at that journey stage, hampering users to move forward in the expected journey flow.
 
-In the Ecommerce site analysis, this was at ‘View Item’ stage, the progression is only 66% and dropping over 30% of users in the journey, clearly there is a friction at this stage which is affecting the user’s progression. At the same time ‘Add Shipping’ stage has the lowest friction with only 10% of users who added their shipping information ended up not Purchasing, demonstrating high Progression rate, clear indication that designed experience is aligned with the user intent.
+In the Ecommerce site analysis, this was at ‘View Item’ stage, the progression is only 66%, effectively dropping over 30% of users in the journey, clearly there is friction at this stage which is affecting the user’s progression. On the contrary, ‘Add Shipping’ stage has the lowest friction with only 10% of users who added their shipping information ended up not Purchasing, demonstrating high Progression rate, clear indication that designed experience is aligned with the user intent.
 
 ### 2. **Friction:&#x20;**&#x49;t focuses on “Where do Users stall?”.
 
 Image 2: <https://drive.google.com/file/d/1LaTEHs3hbnglmwUz0t4_J6k2aJTLBOdu/view?usp=drive_link>
 
-Unlike bounce rate, which tells us where someone left, friction analysis tells us where the user hesitated, how long they stayed stuck, and whether they attempted the step multiple times before giving up.
+Unlike bounce rates and exit rates, which tell us only where someone left the site, friction analysis tells us where the user hesitated, how long they stayed stuck, and whether they attempted the step multiple times before giving up.
 
-As we saw in our Journey Explorer analysis, friction exists at ‘View Item’ stage related to Product View on the Ecommerce site. There can be many reasons for friction that need to be diagnosed. The diagnosis can be effectively done by applying Micro-events, Time factor and other aspects depending on the context of Analysis.
+As we saw in our Journey Explorer analysis, friction exists at ‘View Item’ stage related to Product View on the Ecommerce site. There can be many reasons for friction that need to be diagnosed. The diagnosis can be effectively done by applying Micro-events, Time factor and other data slicing aspects depending on the context of Analysis.
 
 Image 3: <https://drive.google.com/file/d/1GQLBYUjfqxEf-G_ma0Y30FfI6SUJcwBN/view?usp=drive_link>
 
-In our analysis the friction was contributed by the errors and time taken by users to complete the action measured with Time distribution. The reason for longer time to action can be analyzed with Channel, Page, and Micro-Events at the stage. The friction at this stage was also due to, most users chose ‘Add items to Wishlist’ rather than ‘Add to Cart’, although this is a favorable action it is not aligned to direct Journey Progression.
+In our analysis the friction was contributed by the errors and time taken by users to complete the action, which can be seen in the Time distribution chart. The reason for longer time to action can be analyzed with Channel, Page, and Micro-Events performed at this particular stage. On further analysis, Micro-events diagnosis helps us understand that most users chose ‘Add items to Wishlist’ rather than ‘Add to Cart’, although this is a favorable action, it is not aligned to direct desired Journey Progression.
 
 These are the actionable challenges that need to be resolved to remove friction in the user’s journey.
 
@@ -77,6 +77,8 @@ Image 7: <https://drive.google.com/file/d/1x4rQ2eJj3Uzq3XabePaitOcUsHCfYdHf/view
 ### Conclusion
 
 Journey Explorer can represent a meaningful approach for analysts to conduct customer journey analysis. By shifting the unit of analysis from just pages to transitions in the journey, it brings into focus what aggregate metrics have obscured, the actual experience of the users moving through the journey, making decisions, hitting walls, taking detours, and sometimes recovering to find their way back.\
+\
+\
 \
 No single lens makes the Journey Explorer powerful. It is the combination of lenses along with cohorts and their contributing factors. Progression establishes the baseline. Friction pinpoints where intervention is needed. Detour reveals the path users take when the designed journey fails them. Recovery measures how well the experience holds under real-world conditions. Cohort filtering ensures these insights are specific rather than averaged across all users, because behavior that looks uniform at aggregate data level is rarely uniform in practice.
 
