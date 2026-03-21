@@ -50,7 +50,7 @@ In our analysis, we see users browsing FAQ and Shipping Policy pages at the crit
 
 Image 5: <https://drive.google.com/file/d/1z3oXuAg9eqcA4-kjR3Qfgk-hKQ1BOPY4/view?usp=drive_link>
 
-It helps in understanding if the users who detoured were due to a temporary distraction or break in the journey. Behavior of users who detoured and returned is distinctly different from the one who never left, as they demonstrated intent but got distracted. Recovery rates, analyzed alongside the detour paths, give analysts a direct measure of experience resilience and how forgiving is the journey when something goes wrong.
+It helps in understanding if the users who detoured were due to a temporary distraction or break in the journey. Behavior of users who detoured and returned is distinctly different from the one who never left, as they demonstrated intent but got distracted. Recovery rates, analyzed alongside the detour paths, give analysts a direct measure of experience resilience and how forgiving the journey is when something goes wrong.
 
 In our analysis, only 38% of the users who detoured recovered back in the journey suggesting a need to enhance the journey experience to improve their resilience.
 
@@ -73,8 +73,6 @@ Image 6: <https://drive.google.com/file/d/1JZzUCXxIelFJHiy1NmYuaWSLV6n-YJ42/view
 Image 7: <https://drive.google.com/file/d/1x4rQ2eJj3Uzq3XabePaitOcUsHCfYdHf/view?usp=drive_link>
 
 * **Micro-events:** As we already saw at ‘View Item’ stage while understanding Friction, Micro-events were greatly helpful in understanding if the actions performed by the users are aligned directly to the Journey progression or contributing to Friction, for instance the ‘Add to Wishlist’ action although favorable did not directly influence the journey progression similar to ‘Add to Cart’ action which drives the real business goal.
-
-###
 
 ### Conclusion
 
